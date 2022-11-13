@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+.header-app{
+display: flex;
+justify-content: center;
+border-bottom: 0.5px solid;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo-container{
+    margin-top: 10px;
+}
+.navs-container{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    font-weight: bold;
+    font-family: Fredoka;
+}
+.form-addproduct{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+form input{
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #b2bec3;
+    text-align: center;
+    font-family: Fredoka;
+}
+#addproduct-title{
+    font-family: Fredoka;
+    font-size: 20px;
+    text-align: center;
+}
+form button{
+    margin-top: 20px;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #b2bec3;
+    background-color: #b2bec3;
+    text-align: center;
+    font-family: Fredoka;
+    color: white;
+}
+form button:hover{
+    margin-top: 20px;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #b2bec3;
+    background-color: white;
+    text-align: center;
+    font-family: Fredoka;
+    color: #b2bec3;
+}

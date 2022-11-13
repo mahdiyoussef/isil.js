@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .header-app{
+       display: flex;
+       justify-content: center;
+       border-bottom: 0.5px solid;
+    }
+    .logo-container{
+        margin-top: 10px;
+    }
+    .navs-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+        font-weight: bold;
+        font-family: Fredoka;
+    }
+    .basket-panel{
+        width: 30%;
+        background-color: #a29bfe;
+        margin-top: 20px;
+        border-radius: 20px;
+        height: 600px;
+        justify-content: center;
+        text-align: center;
+    }
+    .body-panel{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .prod-panel{
+        width: 100%;
+        margin-top: 20px;
+        display: grid;
+        grid-template-rows: 340px 340px 340px 340px;
+        grid-template-columns: 240px 240px 240px 240px;
+        justify-content: center;
+        max-height: 700px;
+    }
+    .basket-title{
+        margin-top: 10px;
+        color: white;
+        font-family: Fredoka;
+        font-size: 20px;
+        vertical-align: top;
+    }
+    .btn-addtobasket{
+        width: 200px;
+    }
+    .image-file{
+        object-fit: cover
+    }
+    .image-product{
+        width: 240px;
+        height: 200px;
+        background-size: 200px;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+    .products-panel{
+        width: 240px;
+        height: 300px;
+    }
+    #title-products{
+        width: 200px;
+        font-family: Fredoka;
+    }
+    #product-price{
+        width: 200px;
+        font-family: Fredoka;
+    }
+    /* #7ed6df */
+    .btn-addtobasket{
+        background-color:#7ed6df ;
+        border-radius: 10px;
+        border: 0px solid;
+        padding: 5px;
+        font-family: Fredoka;
+        color: white;
+    }
+    .btn-addtobasket:hover{
+        background: none;
+        color:#7ed6df ;
+        border-radius: 10px;
+        border: 1px #7ed6df solid;
+        padding: 4px;
+        font-family: Fredoka;
+        
+    }

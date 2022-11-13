@@ -1,0 +1,26 @@
+
+html(lang='en')
+    head
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/post.css")
+        meta(charset='utf-8')
+        title TechRemarkable
+    body
+        div.container
+            div.header
+                a(href="/") 
+                    p#title TechRemarkable
+                a(href="/post") 
+                    ul Add Post
+                a(href="/logout") 
+                    ul Logout
+            form(action="post" method="post").formaddarticle
+                div
+                    input(type="text" name="title" placeholder="title of article")
+                div 
+                    input(type="text" name="image" placeholder="link of image")
+                div 
+                    textarea(name="details", cols="50", rows="20") 
+                div
+                    input(type="submit")

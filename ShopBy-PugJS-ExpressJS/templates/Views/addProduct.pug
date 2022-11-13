@@ -1,0 +1,37 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='css/addproduct.css')
+  title add a Product
+div
+    div.header-app
+        div.logo-container
+            img(src='logo.png' alt='logo of shop' width='100px')
+        div.navs-container
+          a(href='/')
+            ul Home
+          a(href='/addproduct')
+            ul Add Product
+          a(href='/basket')
+            ul Basket
+    //
+      <div class="basket-button">
+      <img src="../icons/basket.svg" width="40px" />
+      </div>
+    div.form-addproduct
+        div
+        img(src='../icons/addfile.svg' alt='addfile')
+        P#addproduct-title Add a Product
+        form(action='/postproduct' method='post' enctype='multipart/form-data')
+          div
+            input(name='name' placeholder='product name')
+          div
+            textarea(name="desc", cols="30", rows="10") some descriptions
+
+          div
+            input(name='price' placeholder='product price')
+          div
+            input(name='imageproduct' type='file')
+          button(type='submit') submit

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/basket.css" />
+    <title>Your Basket</title>
+</head>
+<body>
+    <div>
+        <div class="header-app">
+            <div class="logo-container">
+                <img src="logo.png" alt="logo of shop" width="100px" />
+            </div>
+            <div class="navs-container">
+                <a href="/"><ul>Home</ul></a>
+                <a href="/addproduct"><ul>Add Product</ul></a>
+                <a href="/basket"><ul>Basket</ul></a>
+            </div>
+            <!-- <div class="basket-button">
+                <img src="../icons/basket.svg" width="40px" />
+            </div> -->
+        </div>
+        <div class="basket-panel">
+            <div class="basket-title"><img src="basket1.svg" width="30px" /><div>Your Basket</div></div>
+            <div class='selected-button'>
+                {%selectedproducts%}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

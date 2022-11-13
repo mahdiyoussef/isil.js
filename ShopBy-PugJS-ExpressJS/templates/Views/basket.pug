@@ -1,0 +1,32 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='css/basket.css')
+  title Your Basket
+div
+  div.header-app
+    div.logo-container
+      img(src='logo.png' alt='logo of shop' width='100px')
+    div.navs-container
+      a(href='/')
+        ul Home
+      a(href='/addproduct')
+        ul Add Product
+      a(href='/basket')
+        ul Basket
+  div.basket-panel
+      div.basket-title
+        img(src='basket1.svg' width='30px')
+        p Your Basket
+      div.selected-button
+        if sproducts!=null
+          each val in sproducts
+            div.products-panel
+                  p#title-products #{val.name}
+                  p#product-price #{val.price}
+                  a(href='/deletefrombasket/'+val.id)
+                    p.deletebutton delete
+        else 
+            p#message-empty the Basket is empty !!

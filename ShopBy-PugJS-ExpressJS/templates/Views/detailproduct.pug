@@ -1,0 +1,38 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' type='text/css' href='/css/dp.css')
+  title description
+
+
+body
+
+    div
+        div.header-app
+            div.logo-container
+                img(src='/logo.png' alt='logo of shop' width='100px')
+            
+            div.navs-container
+                a(href='/')
+                    ul Home
+                a(href='/addproduct')
+                    ul Add Product
+                a(href='/basket')
+                    ul Basket
+        
+        div.detailpanel
+            div(style="background-image: url("+data.image+");").image-detail
+            
+            
+            div.infodetails
+                p.titleproduct-detailsp #{data.name}
+                div.price-detailsp #{data.price} $
+                div.detailsp
+                    p #{data.desc}
+                
+            
+        
+    
+

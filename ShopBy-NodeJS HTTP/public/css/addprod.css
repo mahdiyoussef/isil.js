@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.pagetitle{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.text-title{
+    font-size: 30px;
+    font-family: Raleway;
+    font-weight: bold;
+    color: #0984e3;
+}
+.navs-container{
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    font-weight: bold;
+    font-family: Raleway;
+}
+input{
+    width: 400px;
+    padding: 10px;
+    font-family: Raleway;
+    border-radius: 5px;
+    border: 1px solid #0984e3;
+    margin-top: 20px;
+}
+textarea{
+    width: 400px;
+    padding: 10px;
+    font-family: Raleway;
+    border-radius: 5px;
+    border: 1px solid #0984e3;
+    margin-top: 20px;
+}
+form{
+    text-align: center;
+}
+#sumbit-btn{
+    width: 420px;
+    background-color:#0984e3;
+    color: white;
+}

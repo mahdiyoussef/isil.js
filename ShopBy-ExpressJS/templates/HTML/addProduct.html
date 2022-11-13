@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/addproduct.css"/>
+    <title>add a Product</title>
+</head>
+<body>
+    <div>
+        <div class="header-app">
+            <div class="logo-container">
+                <img src="logo.png" alt="logo of shop" width="100px" />
+            </div>
+            <div class="navs-container">
+                <a href="/"><ul>Home</ul></a>
+                <a href="/addproduct"><ul>Add Product</ul></a>
+                <a href="/basket"><ul>Basket</ul></a>
+            </div>
+            <!-- <div class="basket-button">
+                <img src="../icons/basket.svg" width="40px" />
+            </div> -->
+        </div>
+        <div class="form-addproduct">
+            <div>
+                <img src="../icons/addfile.svg" alt="addfile">
+                <div id="addproduct-title">Add a Product</div>
+            </div>
+            <form action="/postproduct" method="post" enctype="multipart/form-data">
+                <div><input name="name" placeholder="product name" /></div>
+                <div><input name="price" placeholder="product price" /></div>
+                <div><input name="imageproduct" type="file" /></div>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+<style>
+    
+</style>
+</html>

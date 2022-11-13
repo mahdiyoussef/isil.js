@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/addprod.css"/>
+    <title>boutique</title>
+   
+</head>
+<body>
+    <div>
+        <div class="header">
+            <div class="pagetitle">
+                <img src="Dell-Logo-1989-2016.png" height='40px' />
+                <div class="text-title">La Boutique en ligne</div>
+            </div>
+            <div class="navs-container">
+                <a href="/"><ul>Home</ul></a>
+                <a href="/addproduct"><ul>Add product</ul></a>
+                <a><ul>Contact</ul></a>
+            </div>
+        <div>
+        <div class="body">
+            <form action="/postproduct" method="post">
+                <div><input type="text" name="name" id="nameprod" placeholder="Product name"></div>
+                <div><input type="text" name="price" id="nameprod" placeholder="Prix de produit"></div>
+                <div><input type="text" name="image" id="productimage"      placeholder="link of Product Image"></div>
+                <div><textarea name="dsp" id="textareaproduct" cols="30" rows="10">Some product description</textarea></div>
+                <div>
+                    <input type="submit" id="sumbit-btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+
+</html>

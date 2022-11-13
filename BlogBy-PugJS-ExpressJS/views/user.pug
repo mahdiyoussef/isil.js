@@ -1,0 +1,35 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        link(rel='stylesheet',href='css/login.css')
+        title LogIn and SignIn
+    body
+        div.container
+            div.header
+                a(href="/") 
+                    p#title TechRemarkable
+                a(href="/post") 
+                    ul Add Post
+                a(href="/logout") 
+                    ul Logout
+            div.containerforms
+                div.login
+                    form(action='/login' method='post')
+                        p if you have already an account
+                        p Just write admin in user and 0000 in pwd
+                        input(type="text" placeholder='Your Username' name='user')
+                        div
+                        input(type='password' placeholder='Password' name='pwd')
+                        div
+                        input(type="submit")#submit
+                div.signin
+                    form(action='/signin' method='post')
+                        p if You don't have an accaount
+                        input(type="text" placeholder='Your Username' name='user')
+                        div
+                        input(type='password' placeholder='Password' name='pwd1')
+                        div
+                        input(type='password' placeholder='Rewrite the Password' name='pwd2')
+                        div
+                        input(type="submit")#submit

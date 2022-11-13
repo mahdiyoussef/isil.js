@@ -1,0 +1,33 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='css/home.css')
+  title Shoes Available online
+div
+  div.header-app
+    div.logo-container
+      img(src='logo.png' alt='logo of shop' width='100px')
+    div.navs-container
+      a(href='/')
+        ul Home
+      a(href='/addproduct')
+        ul Add Product
+      a(href='/basket')
+        ul Basket
+    //
+      <div class="basket-button">
+      <img src="../icons/basket.svg" width="40px" />
+      </div>
+  div.body-panel
+    div.prod-panel
+      if products!=null
+        each val in products
+          div.products-panel
+            a(href='/description/'+val.id)
+              div(style='background-image:url('+val.image+')').image-product
+            p#title-products #{val.name}
+            p#product-price #{val.price} $
+            a(href="http://localhost:3333/addtobasket/"+val.id)
+                button.btn-addtobasket Add to Cart

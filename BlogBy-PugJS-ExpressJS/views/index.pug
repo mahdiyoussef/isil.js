@@ -1,0 +1,34 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/index.css")
+        script(src="js/index.js") 
+        title TechRemarkable
+    body 
+    div.container 
+        div.page
+            div.header
+                a(href="/") 
+                    p#title TechRemarkable
+                a(href="/post") 
+                    ul Add Post
+                a(href="/logout") 
+                    ul Logout
+            div.blogs
+                each val in posts
+                    -var img=val.image
+                    div.blog
+                        a(href="/posts/"+val.id) 
+                            img(src=img)#image-post
+                        div#titleandesc
+                            p#titleblog #{val.title}
+                            p#descblog #{val.desc} ....
+                            button#readmore >>Readmore
+                            div
+                            a(href='/deletepost/'+val.id)#readmore >>delete
+            div.footer
+                ul TechRemarkable 
+                p contact us on contact@TechRemarkable.com 
+                p address: Rue Zerktouni 82, Casablanca      

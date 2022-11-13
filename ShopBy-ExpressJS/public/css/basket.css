@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+.header-app{
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5px solid;
+ }
+ .logo-container{
+     margin-top: 10px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ .navs-container{
+     display: flex;
+     justify-content: space-between;
+ }
+ ul{
+     font-weight: bold;
+     font-family: Fredoka;
+ }
+ .basket-panel{
+    width: 100%;
+    background-color: #a29bfe;
+    margin-top: 20px;
+    border-radius: 20px;
+    min-height: 600px;
+    max-height: 700px;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.body-panel{
+    text-align: center;
+    
+}
+.basket-title{
+    margin-top: 10px;
+    color: white;
+    font-family: Fredoka;
+    font-size: 20px;
+    vertical-align: top;
+}
+.basket-panel img{
+    padding-top: 20px;
+}
+.basket-panel{
+    text-align: center;
+}
+.image-product{
+    width: 240px;
+    height: 200px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.products-panel{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.deletebutton{
+    font-family: Fredoka;
+    font-weight: bold;
+}
+#title-products{
+    width: 200px;
+    font-family: Fredoka;
+    text-align:left;
+}
+#product-price{
+    width: 200px;
+    font-family: Fredoka;
+    text-align: left;
+}
+.btn-addtobasket{
+    background-color:#7ed6df ;
+    border-radius: 10px;
+    border: 0px solid;
+    padding: 5px;
+    font-family: Fredoka;
+    color: white;
+}
+.btn-addtobasket:hover{
+    background: none;
+    color:#7ed6df ;
+    border-radius: 10px;
+    border: 1px #7ed6df solid;
+    padding: 4px;
+    font-family: Fredoka;
+    
+}
+.selected-button{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}

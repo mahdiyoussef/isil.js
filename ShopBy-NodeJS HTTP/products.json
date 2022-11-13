@@ -1,0 +1,5 @@
+[
+    {"id":1,"name":"MSI Gamer Laptop","image":"https://i0.wp.com/www.setupgame.ma/wp-content/uploads/2022/01/MSI-GF63-Thin-10UC-RTX3050-Setup-Game.jpg","dsp":"Pc Portable gamer MSI GF63 Thin 10UC, CPU : Intel® Core™ i5-10500H, RAM : 8Gb DDR4, Disque dur : 512GB SSD M.2 NVMe PCIe®, GPU : NVIDIA® GeForce®","prix":2000},
+    {"id":2,"name":"Curved Monitor","image":"https://www.ultrapc.ma/15196-large_default/msi-optix-g27c5-27-165hz-freesync-curved-moniteurs.jpg","dsp":"Plongez au coeur de l'action avec le moniteur incurvé MSI Optix G27C5 ! Taillé pour le divertissement numérique, cet écran incurvé Full HD de 27 ..","prix":1000},
+    {"id":3,"name":"MSI Monitor","image":"https://www.ultrapc.ma/15196-large_default/msi-optix-g27c5-27-165hz-freesync-curved-moniteurs.jpg","dsp":"Plongez au coeur de l'action avec le moniteur incurvé MSI Optix G27C5 ! Taillé pour le divertissement numérique, cet écran incurvé Full HD de 27 ..","prix":1000},{"id":3,"name":"Dell G5 Gaming","image":"https://www.goodgame.ma/wp-content/uploads/2019/02/81oWLEoHrgL._SL1500_.jpg","dsp":"i7 gtx 1060","prix":700}
+]
